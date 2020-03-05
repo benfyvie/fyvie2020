@@ -202,8 +202,8 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 .banner h2{
 	font-size:3em;
-	font-family: 'Arizonia', cursive;
-		font-family: 'Rock Salt', cursive;
+	/*font-family: 'Arizonia', cursive;*/
+	font-family: 'Rock Salt', cursive;
 	text-shadow: 2px 2px 4px #000000;
 	/*color:#02C7DA;*/
 	color: #BFF9FF;
@@ -226,8 +226,8 @@ h1,h2,h3,h4,h5,h6,label,p{
 	color:#02C7DA;
     /*color: #02C7DA;*/
     /*font-family: 'Oswald', sans-serif;*/	
-	font-family: 'Arizonia', cursive;	
-		font-family: 'Rock Salt', cursive;
+	/*font-family: 'Arizonia', cursive;	*/
+	font-family: 'Rock Salt', cursive;
     text-shadow: 2px 2px 4px #000000;
     font-weight: 900;
     text-transform: uppercase;
