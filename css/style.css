@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 
 
 
+
 .header{
 	background:url(../images/fyvie.JPG) no-repeat;
 	width:100%;
@@ -318,8 +319,8 @@ h1,h2,h3,h4,h5,h6,label,p{
 
 .content-plan.faq {
 	text-align: left;
+	margin-bottom: 20px;
 }
-
 
 /*----*/
 .content-mid1{
@@ -537,7 +538,7 @@ font-family: 'Diplomata SC', cursive;
 .youtube{
 	width:100%;
 	height: 100%;
-	height:250px;
+	height:248px;
     max-width: 440px;
     	
 }
@@ -1434,8 +1435,8 @@ h4.media-heading {
 .youtube {
 	width: 100%;
 	height: 100%;
-	height: 156px;
-	width: 272px;
+	height: 212px;
+	width: 372px;
 }
 
 .intro h3 {  
@@ -1686,6 +1687,16 @@ h1.grid2 {
   padding: 4em 0;
 }
 }
+
+@media(max-width:850px){
+.youtube {
+	width: 100%;
+	height: 100%;
+	height: 156px;
+	width: 272px;
+}
+}
+
 @media(max-width:767px){
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #FFF;
@@ -1773,9 +1784,17 @@ td.add-check a {
     top: 23%;
     left: 17%;
 }
+
+.youtube {
+	width: 100%;
+	height: 100%;
+	height: 248px;
+	width: 440px;
+}
+
 .content-top1 {
     width: 100%;
-	margin-bottom: 11em;
+	margin-bottom: 1em;
 }
 .content-plan {
     bottom: -33%;
@@ -1844,6 +1863,10 @@ td.add-check a {
 }
 }
 @media(max-width:480px){
+.header{
+	background-position: -100px;
+}	
+	
 .number p {
     font-size: 1.1em;
 }
@@ -2106,10 +2129,36 @@ h4.grid2 {
 }
 
 }
+
+@media(max-width:375px){
+	.youtube {
+	width: 100%;
+	height: 100%;
+	height: 150px;
+	width: 265px;
+}
+
+@media(max-width:360px){
+	.youtube {
+	width: 100%;
+	height: 100%;
+	height: 143px;
+	width: 254px;
+}
+}
+
 @media(max-width:320px){
 .logo img {
     width: 33%;
 }
+
+.youtube {
+	width: 100%;
+	height: 100%;
+	height: 126px;
+	width: 224px;
+}
+
 .logo {
     margin: 1.5em 0 0;
 }
@@ -2164,7 +2213,7 @@ h4.grid2 {
     padding: 2em 1em;
 }
 .content-top1 {
-    margin-bottom: 7em;
+    margin-bottom: 1em;
 }
 .feature-top label {
     left: 0.5em;
@@ -2208,7 +2257,7 @@ h4.grid2 {
     font-size: 1.1em;
 }
 .footer {
-    padding: 2em 0;
+    padding: 0em 0;
 }
 .footer-class {
     font-size: 1.1em;
