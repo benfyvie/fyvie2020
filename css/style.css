@@ -47,6 +47,17 @@ h1,h2,h3,h4,h5,h6,label,p{
     margin: 8em 0 0 ;
     text-align: center;
 }
+
+img.postponement {
+	min-width: 350px;
+}
+.center {
+	margin: auto;
+	width: 50%;
+	/*--border: 3px solid green;--*/
+	padding: 10px;
+}
+
 /*---*/
 .header-menu{
 	 border-bottom: 1px solid #fff;
